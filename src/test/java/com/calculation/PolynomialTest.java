@@ -1,4 +1,4 @@
-package com.sohil.java.calculation;
+package com.calculation;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
@@ -28,7 +28,7 @@ public class PolynomialTest extends TestCase
     }
 
     /**
-     * Rigourous Test :-)
+     * Rigorous Test :-)
      */
 
     public void testApp()

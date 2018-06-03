@@ -1,5 +1,9 @@
 package com.sorting;
 
+/**
+*
+* @author Sohil Chhabriya
+*/
 public class SortUtilities {
     /**
      * Function swaps 2 element of the list

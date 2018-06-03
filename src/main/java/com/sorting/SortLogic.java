@@ -1,5 +1,9 @@
 package com.sorting;
 
+/**
+*
+* @author Sohil Chhabriya
+*/
 public class SortLogic {
     private int[] list;
     //Bubble Sort Function

@@ -2,7 +2,7 @@ package com.calculation;
 
 /**
  *
- * @author sohil chhabriya
+ * @author Sohil Chhabriya
  */
 public class Polynomial {
     private int[][] poly;
