@@ -1,4 +1,4 @@
-package com.sohil.sorting;
+package com.sorting;
 
 public class SortUtilities {
     /**

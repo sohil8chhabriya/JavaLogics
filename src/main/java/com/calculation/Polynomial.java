@@ -1,4 +1,4 @@
-package com.sohil.calculation;
+package com.calculation;
 
 /**
  *

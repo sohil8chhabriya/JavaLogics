@@ -1,7 +1,7 @@
-package com.sohil.app;
+package com.app;
 
-import com.sohil.calculation.*;
-import com.sohil.sorting.*;
+import com.calculation.*;
+import com.sorting.*;
 public class App {
     public static void main(String []args) {
         int[] list = new int[] {11,2,8,9,6,3,1,5};
