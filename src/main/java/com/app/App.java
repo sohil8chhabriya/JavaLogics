@@ -4,13 +4,15 @@ package com.app;
 *
 * @author Sohil Chhabriya
 */
+import com.calculation.PolyOperations;
+import com.calculation.Polynomial;
+import com.logics.LogicMain;
+import com.sorting.SortLogic;
 
-import com.calculation.*;
-import com.sorting.*;
 public class App {
     public static void main(String []args) {
         int[] list = new int[] {11,2,8,9,6,3,1,5};
-        int caseInt = 5;
+        int caseInt = 6;
         switch(args!=null&&args.length>0?Integer.parseInt(args[0]):caseInt) {
             case 1:
                 SortLogic selectionSort = new SortLogic();
@@ -22,7 +24,7 @@ public class App {
                 insertionSort.setList(list);
                 insertionSort.sortListByInsertionSort();
                 break;
-            
+
             case 3:
                 SortLogic bubbleSort = new SortLogic();
                 bubbleSort.setList(list);
@@ -44,6 +46,10 @@ public class App {
                 PolyOperations.printPoly(poly2);
                 PolyOperations.addPoly(poly1, poly2);
                 break;
+            case 6:
+        		int[] testArray = {1,2,3};
+            	new LogicMain().solution(testArray);
+        		break;
             case 0:
             default:
                 System.out.println("Give Arguments:");
